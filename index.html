@@ -30,6 +30,7 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="stars"></div>
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Hi, I'm <span class="highlight">Somil Mourya</span></h1>
@@ -41,9 +42,15 @@
                 </div>
             </div>
             <div class="hero-animation">
-                <div class="floating-card">📱</div>
-                <div class="floating-card" style="animation-delay: 0.2s;">💻</div>
-                <div class="floating-card" style="animation-delay: 0.4s;">🚀</div>
+                <div class="floating-card card-1">📱</div>
+                <div class="floating-card card-2">💻</div>
+                <div class="floating-card card-3">🚀</div>
+                <div class="floating-card card-4">⚡</div>
+                <div class="floating-card card-5">🎯</div>
+                <div class="floating-card card-6">✨</div>
+                <div class="rotating-icon icon-1"><i class="fas fa-code"></i></div>
+                <div class="rotating-icon icon-2"><i class="fas fa-rocket"></i></div>
+                <div class="pulse-icon"><i class="fas fa-star"></i></div>
             </div>
         </div>
     </section>
@@ -56,7 +63,7 @@
                 <div class="about-text">
                     <p>I'm a passionate Android developer with expertise in Kotlin and Kotlin Multiplatform (KMP). I love building robust, user-friendly mobile applications that solve real-world problems.</p>
                     <p>With experience in developing full-featured applications including client-admin systems and consumer apps, I'm committed to writing clean, maintainable code and delivering exceptional user experiences.</p>
-                    <p>When I'm not coding, I'm exploring new technologies, contributing to open source, and continuously improving my skills.</p>
+                    <p>When I'm not coding, I'm exploring new technologies, contributing to open source, and capturing moments through photography.</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-card">
@@ -84,35 +91,39 @@
                 <div class="skill-category">
                     <h3>Languages</h3>
                     <div class="skill-items">
-                        <span class="skill-badge">Kotlin</span>
-                        <span class="skill-badge">Java</span>
-                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">Kotlin <span class="experience">1 year+</span></span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Mobile Development</h3>
                     <div class="skill-items">
-                        <span class="skill-badge">Android SDK</span>
-                        <span class="skill-badge">Jetpack</span>
-                        <span class="skill-badge">KMP</span>
+                        <span class="skill-badge">Android SDK <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">Jetpack <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">KMP <span class="experience">1 year+</span></span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Frameworks & Libraries</h3>
                     <div class="skill-items">
-                        <span class="skill-badge">Compose</span>
-                        <span class="skill-badge">Room</span>
-                        <span class="skill-badge">Retrofit</span>
-                        <span class="skill-badge">Coroutines</span>
+                        <span class="skill-badge">Compose <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">Room <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">Retrofit <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">Coroutines <span class="experience">1 year+</span></span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Tools & Platforms</h3>
                     <div class="skill-items">
-                        <span class="skill-badge">Firebase</span>
-                        <span class="skill-badge">Git</span>
-                        <span class="skill-badge">Android Studio</span>
-                        <span class="skill-badge">REST APIs</span>
+                        <span class="skill-badge">Firebase <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">Git <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">Android Studio <span class="experience">1 year+</span></span>
+                        <span class="skill-badge">REST APIs <span class="experience">1 year+</span></span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Hobbies</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge hobby"><i class="fas fa-camera"></i> Photography</span>
                     </div>
                 </div>
             </div>
@@ -130,12 +141,13 @@
                         <i class="fas fa-tasks"></i>
                     </div>
                     <h3>To Do List Application</h3>
-                    <p>A feature-rich task management app built with Kotlin and modern Android architecture. Users can create, update, and organize their daily tasks with an intuitive interface.</p>
+                    <p class="project-experience"><i class="fas fa-briefcase"></i> Software Dev @ Fintech Product-Based Company</p>
+                    <p>A feature-rich task management app built with Angular and modern web technologies. Users can create, update, and organize their daily tasks with an intuitive interface.</p>
                     <div class="project-tags">
-                        <span class="tag">Kotlin</span>
-                        <span class="tag">Android</span>
-                        <span class="tag">Room Database</span>
-                        <span class="tag">Jetpack</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">RxJS</span>
+                        <span class="tag">Material Design</span>
                     </div>
                     <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -146,6 +158,7 @@
                         <i class="fas fa-utensils"></i>
                     </div>
                     <h3>Food Ordering App - Client</h3>
+                    <p class="project-experience"><i class="fas fa-mobile-alt"></i> Android Developer</p>
                     <p>Full-featured food ordering application for customers. Features include restaurant discovery, menu browsing, cart management, secure payments, order tracking, and real-time updates.</p>
                     <div class="project-tags">
                         <span class="tag">Kotlin</span>
@@ -162,6 +175,7 @@
                         <i class="fas fa-chart-bar"></i>
                     </div>
                     <h3>Food Ordering App - Admin</h3>
+                    <p class="project-experience"><i class="fas fa-mobile-alt"></i> Android Developer</p>
                     <p>Comprehensive admin dashboard for restaurant management. Includes menu management, order processing, sales analytics, customer management, and real-time notifications for new orders.</p>
                     <div class="project-tags">
                         <span class="tag">Kotlin</span>
@@ -171,6 +185,10 @@
                     </div>
                     <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
+            </div>
+            <div class="instagram-tag">
+                <i class="fab fa-instagram"></i>
+                <p>Follow my work: <a href="https://instagram.com/pictures_do_lie" target="_blank">@pictures_do_lie</a></p>
             </div>
         </div>
     </section>
@@ -191,9 +209,9 @@
                 <div class="resume-section">
                     <h3>Experience</h3>
                     <div class="resume-item">
-                        <h4>Android Developer</h4>
+                        <h4>Software Developer - Fintech Product-Based Company</h4>
                         <p class="subtitle">2022 - Present</p>
-                        <p>Developed multiple production-ready Android applications using Kotlin, Firebase, and modern Android architecture.</p>
+                        <p>Developed multiple production-ready applications using modern technologies including Angular and Kotlin. Built scalable fintech solutions with focus on security and performance.</p>
                     </div>
                 </div>
                 <div class="resume-section">
@@ -204,6 +222,7 @@
                         <li>Firebase & Cloud Services</li>
                         <li>REST APIs & Backend Integration</li>
                         <li>Database Design (Room, SQLite)</li>
+                        <li>Angular & TypeScript</li>
                     </ul>
                 </div>
             </div>
@@ -227,10 +246,10 @@
                         <h3>GitHub</h3>
                         <p>@somil20</p>
                     </a>
-                    <a href="https://linkedin.com" target="_blank" class="contact-card">
-                        <i class="fab fa-linkedin"></i>
-                        <h3>LinkedIn</h3>
-                        <p>Connect with me</p>
+                    <a href="https://instagram.com/pictures_do_lie" target="_blank" class="contact-card">
+                        <i class="fab fa-instagram"></i>
+                        <h3>Instagram</h3>
+                        <p>@pictures_do_lie</p>
                     </a>
                 </div>
                 <form class="contact-form" id="contact-form">
@@ -249,7 +268,7 @@
             <p>&copy; 2024 Somil Mourya. All rights reserved.</p>
             <div class="social-links">
                 <a href="https://github.com/somil20" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/pictures_do_lie" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="mailto:somilmourya20@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
